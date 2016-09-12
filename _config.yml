@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Jah Chaisangmongkon"
 title_separator          : "-"
-name                     : &name "JahChaisangmongkon"
+name                     : &name "Jah Chaisangmongkon"
 description              : &description "A Machine Learning Scientist."
 url                      : https://jahchaisang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/datascience" # the subpath of your site, e.g. "/blog"
@@ -81,20 +81,20 @@ analytics:
 author:
   name             : *name
   avatar           : "michael-rose.jpg"
-  bio              : "Just another boring, tattooed, time traveling, designer."
-  location         : "Buffalo, NY"
+  bio              : *description
+  location         : "Bangkok, Thailand"
   email            :
-  uri              : "https://mademistakes.com"
+  uri              : "https://jahchaisang.github.io/datascience"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : *facebook
+  facebook         :
   foursquare       :
-  github           : "mmistakes"
+  github           :
   google_plus      :
   keybase          :
-  instagram        : "mmistakes"
+  instagram        :
   lastfm           :
   linkedin         :
   pinterest        :
@@ -102,7 +102,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : *twitter
+  twitter          : 
   vine             :
   weibo            :
   xing             :
