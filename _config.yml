@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "Jah Chaisangmongkon"
 title_separator          : "-"
-name                     : &name "Jah Chaisangmongkon"
+name                     : &name "JahChaisangmongkon"
 description              : &description "A Machine Learning Scientist."
-url                      : https://jahchaisang.github.io/datascience # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/datascience" # the subpath of your site, e.g. "/blog"
-repository               : "jahchaisang/datascience"
+url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
+repository               : "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -55,9 +55,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : &twitter "mmistakes"
 facebook:
-  username               :
+  username               : &facebook "michaelrose"
   app_id                 :
   publisher              :
 og_image                 : "site-logo.png" # Open Graph/Twitter default site image
@@ -67,32 +67,34 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/mmistakes"
+    - "https://facebook.com/michaelrose"
 
 # Analytics
 analytics:
-  provider               :  # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-2011187-3"
 
 
 # Site Author
 author:
   name             : *name
   avatar           : "michael-rose.jpg"
-  bio              : "A Machine Learning Scientist."
-  location         : "Bangkok, Thailand"
+  bio              : "Just another boring, tattooed, time traveling, designer."
+  location         : "Buffalo, NY"
   email            :
-  uri              : "https://jahchaisang.github.io/datascience"
+  uri              : "https://mademistakes.com"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : *facebook
   foursquare       :
-  github           :
+  github           : "mmistakes"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "mmistakes"
   lastfm           :
   linkedin         :
   pinterest        :
@@ -100,7 +102,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : *twitter
   vine             :
   weibo            :
   xing             :
