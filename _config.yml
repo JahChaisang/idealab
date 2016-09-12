@@ -102,7 +102,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -212,6 +212,16 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
   # _recipes
   - scope:
       path: ""
