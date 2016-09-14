@@ -80,7 +80,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "michael-rose.jpg"
+  avatar           : "jah-01.jpg"
   bio              : *description
   location         : "Bangkok, Thailand"
   email            :
