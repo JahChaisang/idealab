@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jah Chaisangmongkon"
+title                    : "IDEA Lab"
 title_separator          : "-"
-name                     : &name "Jah Chaisangmongkon"
+name                     : &name "Insight Discovery and Entrepreneurial Advancement"
 description              : &description "A Machine Learning Scientist."
 url                      : https://jahchaisang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/datascience" # the subpath of your site, e.g. "/blog"
